@@ -1,13 +1,189 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(1, 4, 22);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(235, 238, 252);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cabecalho {
+    color: rgb(235, 238, 252);
+    background-color: rgb(17, 23, 44);
+    font-size: 32px;
+    padding: 40px;
+}
+
+.inputSearch {
+    margin-left: 50px;
+}
+
+.infoMes {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    float: right;
+}
+
+.saldo {
+    margin-right: 20px;
+    color: rgb(85, 102, 175);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.previsao {
+    color: rgb(85, 102, 175);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.valorSaldo {
+    font-size: 24px;
+    color: rgb(202, 211, 250);
+    font-weight: normal;
+}
+
+.valorPrevisao {
+    font-size: 24px;
+    color: rgb(202, 211, 250);
+    font-weight: normal;
+}
+
+.receita {
+    margin: 40px;
+}
+
+.tituloMovimentacao {
+    color: rgb(235, 238, 252);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.itensValores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.gridValores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+input {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    height: 35px;
+    background-color: rgb(30, 35, 63);
+    color: rgb(202, 211, 250);
+    border: rgb(51, 61, 122) 1px solid;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(72, 84, 136);
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: rgb(72, 84, 136);
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: rgb(72, 84, 136);
+ }
+ 
+ :-ms-input-placeholder {  
+    color: rgb(72, 84, 136);
+ }
+
+.inputNome {
+    width: 500px;
+}
+
+.inputData {
+    width: 90px;
+}
+
+.inputVencimento {
+    width: 90px;
+}
+
+select {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    height: 39px;
+    background-color: rgb(30, 35, 63);
+    color: rgb(202, 211, 250);
+    border: rgb(51, 61, 122) 1px solid;
+}
+
+.selectStatus {
+    width: 120px;
+}
+
+.inputValor {
+    width: 90px;
+}
+
+.btnSalvarValores {
+    background-color: rgb(85, 102, 175);
+    border: none;
+    width: 70px;
+    height: 37px;
+    color: rgb(235, 238, 252);
+    cursor: pointer;
+}
+
+table {
+    margin-top: 20px;
+}
+
+table tr th {
+    background-color: rgb(85, 102, 175);
+    color: rgb(235, 238, 252);
+    padding: 10px;
+}
+
+.itemNome {
+    color: rgb(202, 211, 250);
+    width: 500px;
+    text-align: center;
+    padding: 5px;
+}
+
+.itemData{
+    color: rgb(202, 211, 250);
+    width: 120px;
+    text-align: center;
+    padding: 5px;
+}
+
+.itemVencimento{
+    color: rgb(202, 211, 250);
+    width: 120px;
+    text-align: center;
+    padding: 5px;
+}
+
+.itemStatus{
+    color: rgb(202, 211, 250);
+    width: 120px;
+    text-align: center;
+    padding: 5px;
+}
+
+.itemValor{
+    color: rgb(202, 211, 250);
+    width: 120px;
+    text-align: center;
+    padding: 5px;
 }
