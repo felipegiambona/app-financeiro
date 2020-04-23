@@ -23,8 +23,8 @@ export default class Receita extends React.Component {
     static contextType = ValorDespesaContext;
 
     handleSubmit(e) {
-        const {valorDespesa, setValorDespesa} = this.context;
-        
+        const { setValorDespesa } = this.context;
+
         this.setState({
             itens: [
                 ...this.state.itens,

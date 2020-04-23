@@ -4,7 +4,7 @@ const ValorDespesaContext = React.createContext();
 
 class ValorDespesaProvider extends React.Component {
     state = {
-        valorDespesa: '1'
+        valorDespesa: '0'
     }
 
     setValorDespesa = valorDespesa => {

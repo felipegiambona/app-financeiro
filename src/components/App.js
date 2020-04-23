@@ -1,7 +1,7 @@
 import React from 'react';
 import Cabecalho from './Cabecalho';
 import Receita from './Receita';
-import ValorDespesaContext, { ValorDespesaProvider } from './ValorDespesaContext';
+import { ValorDespesaProvider } from './ValorDespesaContext';
 
 export default class App extends React.Component {
     render() {
